@@ -1,1 +1,22 @@
- print()
+#Ejercicio 1
+print("la suma de 3 y 4 es: ",3+4)
+print("la resta de 3 y 4 es: ",3-4)
+print("la multiplicacion  de 3 y 4 es: ",3*4)
+print("El mosulo de 3 y 4 es: ",3%4)
+print("la divisiòn de 3 y 4 es: ",3/4)
+print("la potencia de 3 y 4 es: ",3**4)
+print("la raiz de 3 y 4 es: ",3//4)
+#Ejercicio 2
+print("Mathias")
+print("Rios")
+print("Ecuador")
+print("Estoy disfrutando de 30 días de Python")
+#Ejercicio 3
+print(type(10))
+print(type(9.8))
+print(type(3.14))
+print(type(4-4j))
+print(type(['Asabeneh', 'Python', 'Finland']))
+print(type("¿Tu nombre"))
+print(type("Tu apellido de familia"))
+print(type("Tu país"))
