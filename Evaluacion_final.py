@@ -37,9 +37,9 @@ print(len(nombre))
 #d)	Explica la diferencia entre /, // y %.
 #La primera es una división normal y corriente en la que se incluyen decimales la seunda es una división entera y la otra es el  faltante  de la división 
 #e)	Escribe una instrucción que permita comprobar la versión de Python que se está usando.
-
+#python --version
 #f)	Escribe una instrucción que permita consultar las palabras reservadas de Python.
-
+#python--V
 
 #Parte B. Corrección y construcción de fragmentos (30 puntos)
 #3. Corrección de código (15 puntos)
@@ -90,13 +90,9 @@ alto = float(input("Ingrese el alto de la pared : "))
 precio = float(input("Ingrese el precio por metro cuadrado: "))
 area = ancho * alto
 costo_total = area * precio
-print("\n--- REPORTE FINAL ---")
 print(f"Nombre completo: {nombre_completo}")
-print(f"País: {pais}")
-print(f"Área de la pared: {area} m²")
-print(f"Costo total estimado: {costo_total}")
-print("\n--- INFORMACIÓN ADICIONAL ---")
-print(f"Nombre completo en mayúsculas: {nombre_completo.upper()}")
-print(f"Longitud del nombre completo: {len(nombre_completo)}")
+print("País: ", pais)
+
+
 print(f"¿La letra 'a' está presente?: {'a' in nombre_completo.lower()}")
 print(f"¿El costo total es mayor que 100?: {costo_total > 100}")
