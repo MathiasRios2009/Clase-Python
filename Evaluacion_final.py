@@ -82,9 +82,21 @@ print(f"Lista de palabras: {palabras}")"""
 # si la letra "a" está presente en nombre_completo
 # si el costo total es mayor que 100 
 
-nombre=input("ingrese su nombre:")
-apelido=input("ingrese su apellido:")
-pais=input("inrese su pais:")
-ancho_pared=input("ingrese el ancho de la pared")
-alto_pared=input("ingrese el largo de la pared ")
-precio_metro=input("ingrese el precio por metro cuadrado")
+nombre = input("Ingrese su nombre: ")
+apellido = input("Ingrese su apellido: ")
+pais = input("Ingrese su país: ")
+ancho = float(input("Ingrese el ancho de la pared : "))
+alto = float(input("Ingrese el alto de la pared : "))
+precio = float(input("Ingrese el precio por metro cuadrado: "))
+area = ancho * alto
+costo_total = area * precio
+print("\n--- REPORTE FINAL ---")
+print(f"Nombre completo: {nombre_completo}")
+print(f"País: {pais}")
+print(f"Área de la pared: {area} m²")
+print(f"Costo total estimado: ${costo_total}")
+print("\n--- INFORMACIÓN ADICIONAL ---")
+print(f"Nombre completo en mayúsculas: {nombre_completo.upper()}")
+print(f"Longitud del nombre completo: {len(nombre_completo)}")
+print(f"¿La letra 'a' está presente?: {'a' in nombre_completo.lower()}")
+print(f"¿El costo total es mayor que 100?: {costo_total > 100}")
