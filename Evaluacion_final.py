@@ -1,3 +1,4 @@
+Aca esta el documento 
 #Parte A. Análisis y comprensión aplicada (30 puntos)
 #1. Análisis de datos y código (15 puntos)
 #Observa el siguiente código:
