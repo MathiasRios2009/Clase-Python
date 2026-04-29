@@ -38,3 +38,12 @@ print(last_letter) # n
 
 
 # %%
+a = 3
+
+if a < 0:
+   print('A is a negative number')
+
+else:
+   print('A is a positive number')
+prom, resultado, nota= 0, 0, 0
+input
