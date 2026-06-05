@@ -22,7 +22,7 @@ if puntaje >90 and asistencia >= 90:
     print("Candidato destacado")
 elif puntaje< 50 and asistencia<50: 
     print("Requiere refuerzo previo")
-#mENSAJES ADICIONALES
+
 print("Participante: ",nombre.upper )
 print(" Caracteres del nombre:",len(nombre))
 print("Promedio general: ", promedio)
